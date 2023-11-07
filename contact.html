@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="navbar">
+		<a href="#" class="logo">ADVENTURE</a>
+		<div class="nav-links">
+			<ul>
+				<li class="menu-ind"><a href="index.html">Home</a></li>
+				<li class="menu-ave"><a href="aventure.html">Aventures</a></li>
+				<li class="menu-sup"><a href="support.html">Support</a></li>
+				<li class="menu-inf"><a href="infos.html">Infos</a></li>
+				<li class="menu-con"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<form method="post" action="traitement de texte">
+		<fieldset id="section1">
+			<legend>informations personnelles</legend>
+			<strong>Informations Personnel</strong><br>
+			<label for="Nom et Prenom">Noms et Prenom</label>
+			<input type="text" id="Nom et prenom"> <br>
+
+			<label for="pass">entrer un mot de passe</label>
+			<input type="Password" id="pass" name="pass"> <br>
+
+			<label for="Naissance">votre date de Naissance</label>
+			<input type="date" id="Naissance" name="Naissance"> <br>
+
+			<strong>Adresse*</strong><br>
+			<label for="Email">Entrer votre Email</label>
+			<input type="Email" id="Email" name="Mail"><br>
+
+			<label for="telephone">Numero de telephone</label>
+			<input type="Number" id="telephone" name="Telephone"><br>
+			</fieldset>
+
+		<fieldset id="section2">
+			<legend>Informations supplementaires</legend>
+			<strong>Sexe*</strong><br>
+			<input type="checkbox" id="Homme" name="sexe" value="homme">
+			<label for="homme">un homme</label><br>
+			<input type="checkbox" id="Femme" name="sexe" value="femme">
+			<label for="femme">une femme</label><br>
+			<input type="checkbox" id="Mineur" name="age" value="Mineur">
+			<label for="mineur">Mineur</label><br>
+			<input type="checkbox" id="Majeur" name="age" value="Majeur">
+			<label for="majeur">Majeur</label><br>
+
+			<Strong>Lieu de residence*</Strong><br>
+			<select name="pays">
+				<option value="armenie">Armenie</option>
+				<option value="albanie">Albanie</option>
+				<option value="allemagne">Allemagne</option>
+				<option value="angleterre">Angleterre</option>
+				<option value="andore">Andore</option>
+				<option value="argentine">Argentine</option>
+				<option value="arabie saoudite">Arabie Saoudite</option>
+				<option value="belgique">Belgique</option>
+				<option value="burkina-faso">Burkina-Faso</option>
+				<option value="canada">Canada</option>
+				<option value="cameroun">Cameroun</option>
+				<option value="chine">Chine</option>
+				<option value="egypte">Egypte</option>
+				<option value="espagne">Espagne</option>
+				<option value="thiopie">Ethiopie</option>
+				<option value="france">France</option>
+				<option value="finland">Finland</option>
+				<option value="gabon">Gabon</option>
+				<option value="ghana">Ghana</option>
+				<option value="turquie">Turquie</option>
+				<option value="usa">USA</option>
+
+		</select><br>
+
+		<label for="prez">Entrer votre message</label>
+		<textarea id="prez" name="Message"></textarea>
+		</fieldset>
+		<input type="submit" value="Envoyer">
+	</form>
+	
+</body>
+</html>

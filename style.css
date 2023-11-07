@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	font-family: 'Courier New', Courier, monospace;
+	height: 100vh;
+	width: 100vw;
+	background-image: url(img/jad20220120-ass-cameroun-stades-1024x683.jpg);
+}
+
+.navbar{
+	justify-content: space-between;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #1a1a1a;
+	display: flex;
+}
+
+.navbar ul{
+	align-items: center;
+	display: flex
+}
+
+.navbar a{
+	color: white;
+}
+
+.navbar .logo{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+.navbar .nav-links ul li{
+	margin: 0 10px;
+}
+.navbar .nav-links ul li a:hover{
+	background-color: indianred;
+}
+ 
+
+h1{
+	text-align: center;
+	margin-top: 100px;
+	color: #fff;
+}
+h2{
+	text-align: center;
+	color: #fff;
+	margin-top: 15px;
+}
+h3{
+	text-transform: capitalize;
+	background-color: #ff7f50;
+	width: 120px;
+	padding: 18px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+img{
+	height: 113%;
+}
+
+#section1{
+background-color: #5bf768;
+padding: 10px;
+margin: 20px 0px;
+}
+#section2{
+	background-color: brown;
+	padding: 10px;
+	margin: 20px 0px;
+}
+#section:hover, #section2:hover{
+	box-shadow: 0px 0px 5px #444;
+}
+legend{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #444;
+}
+#section1 input{
+	width: 300px;
+	height: 20px;
+}
+#section2 input{
+	width: 10px;
+	height: 10px;
+}
+#section1 label{
+	display: inline-block;
+	width: 200px;
+	padding: 10px 0px 15px 40px;
+}
+#section2 label{
+	display: inline-block;
+	width: 100px;
+	padding: 5px 0px 15px 10px;
+}
+input[type="submit"]{
+	float: right;
+	padding: 10px;
+	font-size: 14px;
+	color:#fff;
+	background-color: #fe6921;
+	font-weight: bold;
+}
